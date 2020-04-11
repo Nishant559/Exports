@@ -1,6 +1,9 @@
 import edu.duke.*;
+
 import org.apache.commons.csv.*;
-public class WhichCountriesExport {
+
+public class WhichCountriesExport 
+    {
     public void listExporters(CSVParser parser, String exportOfInterest)
     {
         for(CSVRecord record : parser){
